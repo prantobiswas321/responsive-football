@@ -62,8 +62,6 @@ main{
 .container{
     background-color: #FFFFFF;
     width: 1050px;
-    /* padding: 30px; */
-    border-radius: 5px;
     margin: 70px 210px 165px 180px;
 }
 .players{
@@ -86,4 +84,37 @@ main{
 }
 .player-detail{
     margin: 10px 15px 33px 15px;
+    font-size: 16px;
+}
+
+/*--------------------
+    footer styles 
+---------------------*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 63px;
+}
+.footer-logo{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.socio-links{
+    margin-bottom: 20px;
+}
+.socio-bg{
+    background-color: rgb(230, 230, 230);
+    color: lightslategray;
+    margin: 7px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 0px;
 }
