@@ -107,6 +107,28 @@ main{
     font-family:'Times New Roman', Times, serif;
     color: #6C6C6C;
 }
+/* --------------
+  history of copa 
+  ---------------*/
+  .history-flex{
+    display: flex;
+    /* margin-bottom: 150px; */
+  }
+  .history-copa{
+    width: 50%;
+    padding-left: 5%;
+  }
+  .his-data{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20pxpx;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .history-copa img{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
 
 /* ----------------------
  champion section style
@@ -122,6 +144,9 @@ main{
 /*--------------------
     footer styles 
 ---------------------*/
+footer{
+    margin-top: 120px;
+}
 .footer-item{
     display: flex;
     align-items: center;
@@ -200,6 +225,21 @@ main{
     }
     .player img{
         width: 350px;
+    }
+    .history-flex {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 150px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .history-copa img{
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+      }
+    .his-data{
+        text-align: justify;
     }
 
     footer{
