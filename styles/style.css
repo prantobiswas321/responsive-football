@@ -110,9 +110,9 @@ main{
 /* --------------
   history of copa 
   ---------------*/
+  
   .history-flex{
     display: flex;
-    /* margin-bottom: 150px; */
   }
   .history-copa{
     width: 50%;
@@ -181,6 +181,9 @@ footer{
 
  /* Mobile-devices */
  @media only screen and (max-width: 688px) {
+
+     /* --------header style-------- */
+
     header{
         background-color: #2D25A0;
     }
@@ -226,6 +229,9 @@ footer{
     .player img{
         width: 350px;
     }
+
+    /* -----history styles------- */
+
     .history-flex {
         display: flex;
         margin-top: 0;
@@ -241,7 +247,7 @@ footer{
     .his-data{
         text-align: justify;
     }
-
+/* ------footer styles------- */
     footer{
         overflow-x: hidden;
     }
