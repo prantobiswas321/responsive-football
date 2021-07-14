@@ -28,6 +28,7 @@ header:hover{
 .header-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    overflow-x: hidden;
 }
 .header-detail{
     margin: 207px 102px 169px 156px;
@@ -198,6 +199,7 @@ main{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
         justify-content: center;
+        /* overflow-x: hidden; */
         /* margin: 0 15px; */
         /* flex-direction: row;
         align-content: center;
@@ -212,6 +214,9 @@ main{
     /* .player-info{
         width: 300px;
     } */
+    footer{
+        overflow-x: hidden;
+    }
     .footer-item{
         /* display: flex; */
         width: 100%;
@@ -225,8 +230,8 @@ main{
         
     }
     .copyright{
-        /* font-size: 18px;
-        line-height: 24px; */
+        font-size: 18px;
+        line-height: 24px;
     }
     .width-sec{
         width: 100%;
