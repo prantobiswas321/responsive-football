@@ -18,6 +18,13 @@ body{
 header {
     background-color: #2D25A0;
 }
+header:hover{
+    animation: example 2s ease-in-out infinite alternate;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 .header-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -33,6 +40,8 @@ header {
 }
 .link-button {
     color: #FFFFFF;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
     text-decoration: none;
     width: 168px;
     height: 44px;
@@ -42,11 +51,20 @@ header {
 .link-button i{
     margin-left: 10px;
 }
+
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
 .banner-image{
     width: 556.01px;
     height: 438px;
     margin: 153px 142px 86px 0;
 }
+.header-img img:hover{
+    animation: swing ease-in-out 1s infinite alternate;
+}
+
 
 /*--------------------------------------- 
 players album and details style 
@@ -61,6 +79,7 @@ main{
     background-color: #FFFFFF;
     width: 1050px;
     margin: 70px 210px 43px 180px;
+    margin-bottom: 95px;
 }
 .players{
     display: grid;
@@ -84,8 +103,21 @@ main{
 .player-detail{
     margin: 10px 15px 33px 15px;
     font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    color: #6C6C6C;
 }
 
+/* ----------------------
+ champion section style
+------------------------*/
+.width-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 158px;
+    justify-content: space-evenly;
+}
 /*--------------------
     footer styles 
 ---------------------*/
@@ -112,6 +144,7 @@ main{
     border-radius: 50%;
 }
 .copyright{
+    font-family:'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -123,7 +156,7 @@ main{
  /* Mobile-devices */
  @media only screen and (max-width: 688px) {
     header{
-        background-color: maroon;
+        background-color: #2D25A0;
         /* background-size: cover; */
         /* width: 100%;
         height: 100%; */
@@ -183,8 +216,8 @@ main{
         /* display: flex; */
         width: 100%;
         margin-top: 0;
-        background-color: mediumaquamarine;
-        background-size: cover;
+        /* background-color: mediumaquamarine;
+        background-size: cover; */
     }
     .footer-logo{
         width: 150px;
@@ -194,5 +227,12 @@ main{
     .copyright{
         /* font-size: 18px;
         line-height: 24px; */
+    }
+    .width-sec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 158px;
     }
 }
