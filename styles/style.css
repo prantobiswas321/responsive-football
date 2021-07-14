@@ -61,6 +61,7 @@ main{
     background-color: #FFFFFF;
     width: 1050px;
     margin: 70px 210px 43px 180px;
+    overflow-x: hidden;
 }
 .players{
     display: grid;
@@ -180,7 +181,7 @@ main{
         width: 300px;
     } */
     .footer-item{
-        display: flex;
+        /* display: flex; */
         width: 100%;
         margin-top: 0;
         background-color: mediumaquamarine;
@@ -189,6 +190,7 @@ main{
     .footer-logo{
         width: 150px;
         height: 63px;
+        
     }
     .copyright{
         /* font-size: 18px;
